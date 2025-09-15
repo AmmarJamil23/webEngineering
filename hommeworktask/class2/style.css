@@ -1,0 +1,33 @@
+/* Common html/css layout without flex/grid */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper, .menu, .mainsec, .subsection, .sidebar, footer {
+    border: 1px solid black;
+}
+
+.menu {
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.subsection {
+    width: 60%;
+}
